@@ -6,14 +6,18 @@
 #include "woods.inc" 
 #include "stones.inc"    // pre-defined scene elements 
 
+////////////////////////////////////////////////////////////////////////////////
+
 // TABULEIRO
 #declare MEDIAH=0.6;	// Tabuleiro de 0.6*2 de lado -> 1.2m de lado
 #declare PROFUNDO=2.0;	// Que tao longue esta o tabuleiro: 2.0m
 
 // CAMERA
 #declare ALT_CAMARA=MEDIAH;	// Camera a MEDIAH altura.
-#declare POS_CAMARA=+0.2;	// Camera -0.2m na dereita
+#declare POS_CAMARA=+0.3;	// Camera +0.3m na dereita
 #declare ANG_CAMARA=75;
+
+////////////////////////////////////////////////////////////////////////////////
 
 camera {
    location  <POS_CAMARA, ALT_CAMARA, 0>
