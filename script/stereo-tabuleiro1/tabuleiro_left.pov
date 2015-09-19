@@ -41,7 +41,7 @@ plane {//normal=<0, 1, 0>	y=0
 
 
 box {
-	<-MEDIAH, -MEDIAH, -0.01>, < MEDIAH, MEDIAH, 0.01>
+	<-MEDIAH, -MEDIAH, -0.01>, < MEDIAH, MEDIAH*0.665, 0.01>
 	texture {
 		pigment {
 			checker
@@ -52,6 +52,7 @@ box {
 	}
 	rotate <0, clock, 0>
 	translate <0.0, MEDIAH, PROFUNDO>
+
 }
 
 

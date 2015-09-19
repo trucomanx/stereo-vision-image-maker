@@ -14,7 +14,7 @@
 
 // CAMERA
 #declare ALT_CAMARA=MEDIAH;	// Camera a MEDIAH altura.
-#declare POS_CAMARA=-0.3;	// Camera -0.3m na dereita
+#declare POS_CAMARA=+0.3;	// Camera +0.3m na dereita
 #declare ANG_CAMARA=75;
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -41,7 +41,7 @@ plane {//normal=<0, 1, 0>	y=0
 
 
 box {
-	<-MEDIAH, -MEDIAH, -0.01>, < MEDIAH, MEDIAH, 0.01>
+	<-MEDIAH, -MEDIAH, -0.01>, < MEDIAH, MEDIAH*0.665, 0.01>
 	texture {
 		pigment {
 			checker
@@ -52,7 +52,6 @@ box {
 	}
 	rotate <0, clock, 0>
 	translate <0.0, MEDIAH, PROFUNDO>
-
 }
 
 
