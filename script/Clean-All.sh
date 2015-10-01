@@ -15,3 +15,11 @@ cd ..
 cd stereo-tabuleiro3/
 ./Clean-All.sh
 cd ..
+
+cd stereo-tabuleiro4/
+./Clean-All.sh
+cd ..
+
+cd stereo-tabuleiro5/
+./Clean-All.sh
+cd ..

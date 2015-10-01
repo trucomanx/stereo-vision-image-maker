@@ -18,3 +18,14 @@ cd stereo-tabuleiro3/
 ./tabuleiro_right.sh
 ./tabuleiro_left.sh
 cd ..
+
+cd stereo-tabuleiro4/
+./tabuleiro_right.sh
+./tabuleiro_left.sh
+cd ..
+
+cd stereo-tabuleiro5/
+./tabuleiro_right.sh
+./tabuleiro_left.sh
+cd ..
+
