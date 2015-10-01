@@ -23,3 +23,7 @@ cd ..
 cd stereo-tabuleiro5/
 ./Clean-All.sh
 cd ..
+
+cd stereo-tabuleiro6/
+./Clean-All.sh
+cd ..

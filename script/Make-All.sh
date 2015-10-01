@@ -29,3 +29,7 @@ cd stereo-tabuleiro5/
 ./tabuleiro_left.sh
 cd ..
 
+cd stereo-tabuleiro6/
+./tabuleiro_right.sh
+./tabuleiro_left.sh
+cd ..
